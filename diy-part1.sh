@@ -10,7 +10,7 @@
 
 # fw876/helloworld
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.defaultault
-
+echo 'src-git lucky https://github.com/gdy666/luci-app-lucky' >>feeds.conf.default
 echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 
 #sed -i 's@coolsnowwolf/packages@P3TERX/packages@' feeds.conf.default
